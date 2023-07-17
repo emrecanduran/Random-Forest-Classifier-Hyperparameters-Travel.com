@@ -35,4 +35,4 @@ https://www.kaggle.com/datasets/susant4learning/holiday-package-purchase-predict
 
 ## Model Building
 
-Random Forest Classifier is applied to predict 'ProdTaken' is 0 or 1.  
+Random Forest Classifier is applied for prediction.

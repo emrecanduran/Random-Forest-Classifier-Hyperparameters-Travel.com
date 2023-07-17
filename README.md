@@ -33,6 +33,6 @@ https://www.kaggle.com/datasets/susant4learning/holiday-package-purchase-predict
 - `Designation`: Designation of the customer in the current organization. 
 - `MonthlyIncome`: Gross monthly income of the customer. 
 
-# Model Building
+## Model Building
 
 Random Forest Classifier is applied to predict 'ProdTaken' is 0 or 1.  

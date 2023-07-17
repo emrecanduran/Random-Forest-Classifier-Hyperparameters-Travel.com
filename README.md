@@ -14,8 +14,8 @@ https://www.kaggle.com/datasets/susant4learning/holiday-package-purchase-predict
 
 - `CustomerID`: Unique customer ID 
 - `ProdTaken`: Taken product: 1/0 (Target) 
-- `Age`: Age of the customer 
-- `TypeofContact`: How customer was contacted (Company invited or Self Inquiry)
+- `Age`: The age of the customer 
+- `TypeofContact`: How the customer was contacted (Company invited or Self Inquiry)
 - `CityTier`: City tier depends on the development of a city, population, facilities, and living standards. The categories are ordered i.e. 
 - `DurationOfPitch`: Duration of the pitch by a salesperson to the customer. (minute)
 - `Occupation`: Occupation of the customer. 
@@ -29,7 +29,10 @@ https://www.kaggle.com/datasets/susant4learning/holiday-package-purchase-predict
 - `Passport`: The customer has a passport or not (0: No, 1: Yes). 
 - `PitchSatisfactionScore`: Sales pitch satisfaction score. 
 - `OwnCar`: Whether the customers own a car or not (0: No, 1: Yes). 
-- `NumberOfChildrenVisiting`: Total number of children with age less than 5 planning to take the trip with the customer. 
+- `NumberOfChildrenVisiting`: Total number of children age less than 5 planning to take the trip with the customer. 
 - `Designation`: Designation of the customer in the current organization. 
 - `MonthlyIncome`: Gross monthly income of the customer. 
 
+# Model Building
+
+Random Forest Classifier is applied to predict 'ProdTaken' is 0 or 1.  
